@@ -10,3 +10,10 @@ def test_teens_to_words():
     assert number_to_words(11) == 'eleven'
     assert number_to_words(12) == 'twelve'
     assert number_to_words(15) == 'fifteen'
+
+
+def test_tens_to_words():
+    assert number_to_words(20) == 'twenty'
+    assert number_to_words(22) == 'twenty two'
+    assert number_to_words(33) == 'thirty three'
+    assert number_to_words(99) == 'ninety nine'
